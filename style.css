@@ -2,9 +2,10 @@
   --ff-heading: 'Epilogue', sans-serif;
   --ff-texting: 'Open sans', sans-serif;
 
-  --bg-primary: #28293E;
-  --fc-primary: #ffffff;
-  --fc-secondary: #BBB3E6;
+  --hue: 250;
+  --bg-primary: hsla(var(--hue), 22%,20%, 1);
+  --fc-primary: hsl(var(--hue), 0%, 100%);
+  --fc-secondary: hsla(var(--hue), 50%, 80%, 1);
 }
 
 body{
